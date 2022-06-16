@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\Python\\sum1-10"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.errorSquiggles": "Enabled",
+		"files.associations": {
+			"string": "cpp",
+			"iostream": "cpp"
+		}
+	}
+}

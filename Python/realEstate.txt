@@ -1,0 +1,6 @@
+final_price,type,full_address
+810000,Condo Apt,1 Aberfolye Cres
+800000,Condo Apt,1 Aberfoyle Cres
+640000,Condo Apt,1 Avondale Ave
+640000,Condo Apt,1 Avondale Ave
+573000,Condo Apt,1 Avondale Ave

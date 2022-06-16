@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+/* Styling the header */
+.header {
+  padding: 15px;
+  text-align: center;
+  background: rgb(250, 194, 157);
+  color: rgb(0, 0, 0);
+}
+
+/* styling the navigation bar */
+.navigation-bar {
+  display: flex;
+  background-color: rgb(105, 78, 53);
+}
+.login {
+  position: relative;
+  left: 725px;
+  /* align-items: flex-end; */
+}
+.register {
+  position: relative;
+  left: 730px;
+  /* align-items: flex-end; */
+}
+/* styling the naviation bar links */
+.navigation-bar a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+}
+
+/* change color on hover */
+.navigation-bar a:hover {
+  background-color: #ddd;
+  color: rgb(250, 76, 76);
+}
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* creating the two unequal columns side by side */
+.side {
+  flex: 35%;
+  padding: 20px;
+}
+.main {
+  flex: 65%;
+  background-color: burlywood;
+  padding: 20px;
+}
+/* The fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 15px;
+}
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: coral;
+}
+/* make two columns stack ontop of each other on a smaller screen */
+@media screen and (max-width: 700px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
